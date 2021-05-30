@@ -1,0 +1,369 @@
+body{
+	margin:0px;
+	padding:0px
+}
+.topbar{
+	display:flex;
+	justify-content:space-between;
+	height:132px;
+	background:black;
+	margin:0;
+	overflow:hidden;
+	
+}
+.topbar-img{
+	margin-left:300px;
+	padding-top:15px
+}
+
+.topbar-menu{
+	overflow:hidden;
+	margin-right:200px;
+	padding-top:40;
+}
+
+
+.menu{
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	overflow:hidden
+}
+
+
+.menu li{
+	list-style:none;
+	display:inline-block; 
+}
+
+
+.menu li a{
+	padding:10px 20px; 
+    text-decoration:none;
+    display:block;
+	color:#fff;
+    font-size:20px;
+	color:white;
+}
+.button{
+  background-color:red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration:0.4s;
+  border-radius:12px
+}
+
+.hero-image {
+  background-image: url("mesa/images/mesa-a");
+  background-color:#cccc;
+  height:500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50% );
+  color: black;
+  font-size:20px;
+}
+
+.hero-text li{
+	list-style:none;
+	display:inline-block;
+}
+.main-section{
+	overflow:hidden;
+	padding:20px;
+	margin:50px;
+	
+}
+.section{
+	overflow:hidden;
+	display:grid;
+	grid-template-columns:1fr 1fr;
+	margin:50px;
+	text-align:center
+	
+
+}
+
+.left-side-section{
+	text-align:center;
+	
+}
+
+.subtitle{
+	padding:5px;
+	border-bottom:2px solid #000;
+	border-bottom-color:red;
+	font-size:50px;
+	font-style:roboto;
+	
+	
+}
+
+.paragraph{
+	padding:px;
+	margin:2px;
+	font:20px roboto;
+	
+}
+
+.middle-section{
+	text-align:center;
+	
+}
+
+.middle-sec{
+	text-align:center;
+	overflow:hidden;
+	background-color:lightgray;
+	padding:30px;
+	width:100%
+}
+
+.subheading{
+	font-size:50px;
+	}
+
+.para{
+	text-align:center;
+	overflow:hidden;
+	font:25px roboto;
+	text-align:center;
+	width:80%;
+	padding-left:120px;	
+}
+
+.main-container{
+	text-align:center;
+	font-size:50px;
+	padding:20px;
+	overflow:hidden
+}
+
+.container{
+	margin:40px;
+}
+
+.item1{
+	padding-top:30px;
+	float:left;
+	overflow:hidden;
+	text-align:center;
+	width:30%;
+	border-width:5px;
+	border-style:initial;
+	margin:5px;
+	background-color:lightgray;
+}
+
+.item2{
+	padding-top:30px;
+	float:left;
+	overflow:hidden;
+	text-align:center;
+	width:30%;
+	border-width:5px;
+	border-style:inital;
+	margin:5px;
+	background-color:lightgray;
+	
+	
+}
+
+.item3{
+	padding-top:30px;
+	float:left;
+	overflow:hidden;
+	text-align:center;
+	width:30%;
+	border-width:5px;
+	border-style:inital;
+	margin:5px;
+	background-color:lightgray;
+	
+}
+
+.item4{
+	padding-top:30px;
+	float:left;
+	overflow:hidden;
+	text-align:center;
+	width:30%;
+	border-width:5px;
+	border-style:inital;
+	margin:5px;
+	background-color:lightgray;
+}
+
+.item5{
+	padding-top:30px;
+	float:left;
+	overflow:hidden;
+	text-align:center;
+	width:30%;
+	border-width:5px;
+	border-style:inital;
+	margin:5px;
+	background-color:lightgray;
+	
+}
+
+.sub-item{
+	text-align:center;
+	font-size:30px;
+}
+
+.para1{
+	text-align:center;
+	width:100%;
+	font-size:25px
+}
+
+.img-item li{
+	list-style:none;
+	display:inline-block
+}
+
+.aboutus{
+	padding-top:50px
+}
+
+
+
+.about-img {
+  background-image: url("mesa/images/mesa-a");
+  background-color:#000;
+  height:416px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.about-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50% );
+  color: white;
+  font-size:20px;
+}
+
+.id{
+	padding:50px;
+	margin:50px;
+	overflow:hidden;
+	display:flex;
+	
+}
+
+.id-map{
+	padding-left:30px;
+	flex:1;
+	
+}
+.id-form{
+	flex:1;
+}
+.id-menu{
+	width:100%;
+	
+}
+
+footer{
+	width:100%;
+	overflow:hidden;
+	height:264px;
+	background-color:black;
+	color:white;
+	padding:20px
+}
+.main-flex{
+	display:grid;
+	grid-template-columns:30% 30% 30%;
+	padding:20px;
+}
+
+.content-flex{
+	margin:0px;
+	padding:0px;
+	
+	
+}
+ 
+.content-flex li{
+	list-style:none;
+	
+	
+	
+} 
+
+.content-flex li a{
+	padding:2pxpx 5px; 
+    text-decoration:none;
+    display:block;
+	color:#fff;
+    font-size:16px;
+	color:white;
+}
+
+.hid{
+	padding-left:35px;
+}
+
+.hidi{
+	padding-left:35px;
+}
+
+.logo-flex{
+	padding-left:40px;
+}
+.row25{
+	width:25%;
+	font-size:30px;
+	box-sizing: border-box;
+	  
+}
+.row75{
+		width:70%;
+	  box-sizing:border-box;
+	 
+}
+input[type=text],textarea,select{
+  width: 100%;
+  border: 1px solid #ccc;
+  padding:12px
+}
+
+label {
+
+  display:inline-block;
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
